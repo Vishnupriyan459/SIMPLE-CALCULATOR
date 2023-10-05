@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 213, 213);
+    font-family: 'poppins';
+}
+.Title{
+    font-size: 50px;
+    text-align: center;
+}
+.calculator{
+    background-color: #000;
+    border-radius: 25px;
+    
+    color: #fff;
+    padding: 20px;
+
+}
+.display-block{
+    background-color: #446e5b;
+    height: 70px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.given-numbers{
+    display: block;
+    text-align: end;
+}
+.power{
+    text-align: center;
+    margin: 30px;
+}
+.power-btn{
+    width: 30px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 50px;
+    
+}
+.calculator-button{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    border-radius: 30px;
+    /* height: 30%; */
+    gap: 1px;
+    
+}
+.calculator-button>div{
+    background-color: #2b2828;
+     padding: 15px;
+     margin: 2px;
+     border-radius: 10px;
+     text-align: center;
+    
+}
+ @media screen and (min-width:320px) {
+    .calculator{
+      margin: 10vw ;
+      
+    }
+    
+}
+@media screen and (min-width: 768px){
+    .calculator{
+       margin: 10% 32%;
+    }
+}
+@media screen and (min-width: 1000px){
+    .calculator{
+       margin: 10% 35%;
+    }
+}
