@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 213, 213);
+    font-family: 'poppins';
+}
+.Title{
+    font-size: 50px;
+    text-align: center;
+}
+.calculator{
+    background-color: #000;
+    border-radius: 25px;
+    
+    color: #fff;
+    padding: 20px;
+    width:30%;
+    margin: 0% 35%;
+
+}
+.display-block{
+    background-color: #446e5b;
+    height: 70px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.display-content{
+    display: block;
+    opacity: 0;
+}
+#given-numbers{
+    display: block;
+    text-align: end;
+}
+.power{
+    text-align: center;
+    margin: 30px;
+}
+.power-btn{
+    width: 30px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+.button-block{
+    margin: 0 10px;
+}
+button{
+    width: 65px;
+    height: 65px;
+    margin: 7px;
+    background: transparent;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: -5px -6px 15px #000;
+    outline: 1px solid #313131;
+    outline-offset: 3px;
+    cursor: pointer;
+}
+
+button:active{
+    background: #000;
+    transform: translate(2px, 2px);
+}
+#inputBox{
+    background-color:#446e5b ;
+    border: none;
+    color: #fff;
+    text-align: right;
+    width: 100%;
+}
+
+.opr{
+    color: #ffffff;
+    background: #1e1919;
+    font-weight: 700;
+}
+
+#eqBtn{
+    background: #fd0202;
+    font-weight: 900;
+}
+ @media screen and (min-width:300px) {
+    .calculator{
+      margin:0% 10%  ;
+      width: 15rem;
+      
+    }
+    .button-block{
+        margin: 0px 8px;
+    }
+    button{
+        width: 30px;
+        height: 28px;
+        margin: 6px;
+        background: transparent;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        border: 0;
+        border-radius: 50%;
+        box-shadow: -5px -6px 15px #000;
+        outline: 1px solid #313131;
+        outline-offset: 3px;
+        cursor: pointer;
+    }
+
+    
+}
+
+@media screen and (min-width:600px) {
+    .calculator{
+      margin:1% 30%  ;
+      width: 18rem;
+      
+      
+    }
+    .button-block{
+        margin: 0px 15px;
+    }
+    button{
+        width: 40px;
+        height: 38px;
+        margin: 5px;
+        background: transparent;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        border: 0;
+        border-radius: 50%;
+        box-shadow: -5px -6px 15px #000;
+        outline: 1px solid #313131;
+        outline-offset: 3px;
+        cursor: pointer;
+    }
+
+    
+}
+@media screen and (min-width:1000px) {
+    .calculator{
+      margin:1% 30%  ;
+      
+      width: 20rem;
+      
+    }
+    .button-block{
+        margin: 0px 10px;
+    }
+    button{
+        width: 50px;
+        height: 48px;
+        margin: 5px;
+        background: transparent;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        border: 0;
+        border-radius: 50%;
+        box-shadow: -5px -6px 15px #000;
+        outline: 1px solid #313131;
+        outline-offset: 3px;
+        cursor: pointer;
+    }
+
+    
+}
+

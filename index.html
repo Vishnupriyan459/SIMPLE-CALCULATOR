@@ -12,8 +12,8 @@
     <h1 class="Title">Simple Calculator</h1>
     <div class="calculator">
         <div class="display-block">
-            <div class="display-content">
-                <div class="given-numbers">0</div>
+            <div id="display-content">
+                <div id="given-numbers">0</div>
                 <div class="answer-block">
                     <div>Ans</div>
                     <div class="ans"></div>
@@ -21,26 +21,27 @@
             </div>
             
         </div>
-        <div class="power"><i class="fa-solid fa-power-off power-btn" style="color: #ffffff;"></i></div>
+        <div class="power" onclick="power()"><i class="fa-solid fa-power-off power-btn" style="color: #ffffff;"></i></div>
         <div class="calculator-button">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>/</div>
-            <div>4</div>
-            <div>5</div>
-            <div>6</div>
-            <div>*</div>
-            <div>7</div>
-            <div>8</div>
-            <div>9</div>
-            <div>-</div>
-            <div>0</div>
-            <div>clear</div>
-            <div>sol</div>
-            <div>+</div>
+            <div class="number-button">7</div>
+            <div class="number-button">8</div>
+            <div class="number-button">9</div>
+            <div class="operation-button">/</div>
+            <div class="number-button">4</div>
+            <div class="number-button">5</div>
+            <div class="number-button">6</div>
+            <div class="operation-button">*</div>
+            <div class="number-button">1</div>
+            <div class="number-button">2</div>
+            <div class="number-button">3</div>
+            <div class="operation-button">-</div>
+            <div class="number-button">0</div>
+            <div  id="equals">=</div>
+            <div>Clear</div>
+            
+            <div class="operation-button">+</div>
         </div>
     </div>
-    <script src="into.js"></script>
+    <script src=".js"></script>
 </body>
 </html>

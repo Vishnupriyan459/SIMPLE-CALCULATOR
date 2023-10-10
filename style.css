@@ -26,8 +26,13 @@ body{
     height: 70px;
     border-radius: 10px;
     padding: 5px;
+
 }
-.given-numbers{
+.display-content{
+    display: block;
+    opacity: 0;
+}
+#given-numbers{
     display: block;
     text-align: end;
 }
@@ -40,6 +45,7 @@ body{
     background-color: red;
     padding: 5px;
     border-radius: 50px;
+    cursor: pointer;
     
 }
 .calculator-button{
@@ -57,7 +63,39 @@ body{
      margin: 2px;
      border-radius: 10px;
      text-align: center;
+     cursor: pointer;
     
+}
+button{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: -5px -6px 15px #000;
+    outline: 1px solid #313131;
+    outline-offset: 3px;
+    cursor: pointer;
+}
+
+button:active{
+    background: #000;
+    transform: translate(2px, 2px);
+}
+
+.opr{
+    color: #fbff00;
+    background: #1e1919;
+    font-weight: 700;
+}
+
+#eqBtn{
+    background: orangered;
+    font-weight: 900;
 }
  @media screen and (min-width:320px) {
     .calculator{
